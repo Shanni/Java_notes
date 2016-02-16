@@ -36,6 +36,6 @@ class RoundRobin{
             }
           
         }
-        return (float)wait/arrive.length;
+        return (double)wait/arrive.length;
     }
 }
