@@ -21,6 +21,7 @@ public class Step1 {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        //ArrayList
         ArrayList a=new ArrayList();
         a.add(3);
         a.add("hi");
@@ -28,8 +29,17 @@ public class Step1 {
         System.out.println(a);
         System.out.println(a.size());
         
+        //LinkedList
         LinkedList l=new LinkedList();
         System.out.println(l.size());
+        
+        //ListIterator
+        List<Integer> l1=new LinkedList<Integer>();
+        l1.add(2);
+        l1.add(4);
+        ListIterator i=l1.listIterator();
+        i.next();
+        i.previous();
         
     }
     
