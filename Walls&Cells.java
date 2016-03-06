@@ -2,6 +2,8 @@ public class Solution {
     public void dfs(int[][] rooms, int i, int j){
         
        // System.out.println(rooms[i][j]);
+       
+       //Make optimal solution by checking when to stop the recursion.
         if(i-1>=0 && rooms[i-1][j]>rooms[i][j]+1){
             rooms[i-1][j]=rooms[i][j]+1;
             dfs(rooms,i-1,j);
