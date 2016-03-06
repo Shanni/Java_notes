@@ -9,6 +9,7 @@
  */
 public class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
+        //notice the syntax here..
         List<List<Integer>> ret=new LinkedList<>();
         Queue<TreeNode> q=new LinkedList<>();
         if (root==null)
